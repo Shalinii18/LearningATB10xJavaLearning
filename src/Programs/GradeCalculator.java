@@ -2,7 +2,8 @@ package Programs;
 
 public class GradeCalculator {
 
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         int marks= 70;
         String result= (marks>=90 && marks<100)? "Grade A" :
                 (marks>=80 && marks<89) ? "Grade B" :
